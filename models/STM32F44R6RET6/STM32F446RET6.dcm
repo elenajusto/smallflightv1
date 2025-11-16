@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F446RET6
+D 32-Bit MCU+DSP 512K Flash 180MHz LQFP64 STMicroelectronics STM32F446RET6, 32bit ARM Cortex M4 MCU, 180MHz, 512 kB Flash, 64-Pin LQFP
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0028583.pdf
+$ENDCMP
+#
+#End Doc Library
