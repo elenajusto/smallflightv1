@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Page-1" id="OTXhQ1MI3RA3jZsRNPFG">
+    <mxGraphModel dx="648" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QdlfTDTzezv02pUtioIt-7" value="Computer Requirements" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QdlfTDTzezv02pUtioIt-8" value="Record flight data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="140" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QdlfTDTzezv02pUtioIt-9" value="Power from battery" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="90" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QdlfTDTzezv02pUtioIt-10" value="Actuate servo" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="290" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QdlfTDTzezv02pUtioIt-11" value="Sense altitude" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="190" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QdlfTDTzezv02pUtioIt-12" value="Sense roll" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="240" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qVyRjGOLnVm6zLUgWOFC-1" value="Estimated Flight Profile&amp;nbsp;&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(from OpenRocket Simulation for Lulu 2025 Block 1)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qVyRjGOLnVm6zLUgWOFC-2" value="Max Velocity: ~ 51.3 m/s" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="140" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qVyRjGOLnVm6zLUgWOFC-3" value="Altitude: ~ 142 m" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="90" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qVyRjGOLnVm6zLUgWOFC-5" value="Max Acceleration: ~ 116 m/s/s" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="190" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qVyRjGOLnVm6zLUgWOFC-7" value="G-Force: ~ 11.84 g" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="240" width="170" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
