@@ -15,3 +15,5 @@
 ![power_requirements](images/power_requirements.png)
 
 ![power_requirement_diagram](images/power_requirement_diagram.png)
+
+![battery_sizing](images/battery_sizing.png)
