@@ -172,7 +172,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QjJ3HAsVn_nEJmuQyMrn" name="Page-3">
-    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -198,7 +198,7 @@
           <mxGeometry x="306.51" y="240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nZC94vWIRL19hxMfr_02-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Power Block Diagram v1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry y="40" width="850" height="40" as="geometry" />
+          <mxGeometry y="40" width="880" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mkWJARzeDZpNn14pj5---1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -367,6 +367,9 @@
         </mxCell>
         <mxCell id="mkWJARzeDZpNn14pj5---59" value="3.6 V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="196.51" y="360" width="600.24" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCy8LP9CnCzjmDc-tFZy-1" value="????" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="150" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
