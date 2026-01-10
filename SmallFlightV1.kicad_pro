@@ -615,6 +615,10 @@
     [
       "88bd1830-0529-488c-a0be-53ac2a055565",
       "Microcontroller"
+    ],
+    [
+      "e79f4bae-0570-408a-a4f8-ca387aa7c020",
+      "Power"
     ]
   ],
   "text_variables": {}
