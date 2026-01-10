@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32F446RET6")(type "KiCad")(uri "${KIPRJMOD}/models/STM32F446RET6/KiCADv6/2026-01-10_20-55-51.kicad_sym")(options "")(descr ""))
+)
