@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "bc7a92f7-8792-4aee-a128-924c35bbb37e")
+	(uuid "449a253d-d055-4743-b068-8a8daa566f93")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1609,7 +1609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USB:AMPHENOL_10103592-0001LF"
+		(property "Footprint" "10103592-0001LF:AMPHENOL_10103592-0001LF"
 			(at 83.82 73.66 0)
 			(effects
 				(font

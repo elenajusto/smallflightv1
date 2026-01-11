@@ -5,9 +5,59 @@
 	(uuid "5a8b04a1-a6d6-48bd-ac5f-d4986cb92d03")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 143.51 25.4) (xy 143.51 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "017c7819-82fc-4520-b180-c0cb8aba8283")
+	)
+	(wire
+		(pts
+			(xy 101.6 25.4) (xy 143.51 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050ae24b-e008-48de-a17f-f62ed70c7e3a")
+	)
+	(wire
+		(pts
+			(xy 114.3 35.56) (xy 125.095 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1532fa7b-b61c-4bee-aa5d-64d084a2ad2a")
+	)
+	(wire
+		(pts
+			(xy 114.3 33.02) (xy 125.095 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5164d47a-1da6-4f51-91a8-21de8a6c0324")
+	)
+	(wire
+		(pts
+			(xy 101.6 25.4) (xy 101.6 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33f5afb-be86-47ab-beeb-49b0ff59234c")
+	)
 	(sheet
-		(at 125.73 38.1)
-		(size 37.465 25.4)
+		(at 125.095 31.115)
+		(size 37.465 38.735)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +72,7 @@
 		)
 		(uuid "88bd1830-0529-488c-a0be-53ac2a055565")
 		(property "Sheetname" "Microcontroller"
-			(at 125.73 37.3884 0)
+			(at 125.095 30.4034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +81,202 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 125.73 64.0846 0)
+			(at 125.095 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+3V3" output
+			(at 143.51 31.115 90)
+			(uuid "90ed48dc-7e8d-4fe6-94e6-eb8c292a5637")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUZZ" output
+			(at 162.56 58.42 0)
+			(uuid "6c3f7e8c-c2f2-4681-beea-31546a48dbad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FLASH_MEM_CS" output
+			(at 162.56 62.23 0)
+			(uuid "d49749e6-32aa-4d51-97be-75caea39d68f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 162.56 33.02 0)
+			(uuid "02c95a85-990a-44db-896c-ed2a10bc061c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 162.56 35.56 0)
+			(uuid "01700c83-fe0a-48f4-a55f-f95246fa9e10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST" output
+			(at 125.095 53.34 180)
+			(uuid "3010f1e7-fca2-40c9-ad31-a45e1546e149")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_DET" input
+			(at 162.56 64.77 0)
+			(uuid "0e116c76-51e9-4f19-b261-27a986f35775")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_MEM_CS" output
+			(at 162.56 67.31 0)
+			(uuid "83b234a9-3eb3-44f0-be4a-f74a243d7747")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVO_FEEDBACK" input
+			(at 162.56 43.18 0)
+			(uuid "ffc7ae01-7f66-4ccf-ab0f-d6cc956db763")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVO_PWM" output
+			(at 162.56 40.64 0)
+			(uuid "72e0abee-009a-4361-aa5b-66cc55cf9dcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_JTCK-SWCLK" bidirectional
+			(at 125.095 50.8 180)
+			(uuid "62e2aab4-78ad-4670-a9c4-fd7ae3d69e42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYS_JTMS-SWDIO" bidirectional
+			(at 125.095 48.26 180)
+			(uuid "f2291e61-5990-4a7d-ac3a-2e26e26b532f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART1_RX" bidirectional
+			(at 125.095 43.18 180)
+			(uuid "c1aec65c-e3af-493b-b391-351605e55143")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART1_TX" bidirectional
+			(at 125.095 40.64 180)
+			(uuid "8ca81e17-0353-4334-adc2-f70a56f0c954")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DN" bidirectional
+			(at 125.095 35.56 180)
+			(uuid "20b22ebb-c8e8-42e2-a824-eb9f25a2b838")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 125.095 33.02 180)
+			(uuid "09590242-6f3f-4cd3-a805-4663adebdfca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SP1_MISO" input
+			(at 162.56 48.26 0)
+			(uuid "52f1b7bd-f70e-40b7-8e47-880988fbcef2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SP1_MOSI" input
+			(at 162.56 50.8 0)
+			(uuid "5cddbb56-471b-4233-ac95-0add9ddf0e73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SP1_SCK" input
+			(at 162.56 53.34 0)
+			(uuid "88a6bfcb-1798-415f-8b14-d51c464db86e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -48,8 +288,8 @@
 		)
 	)
 	(sheet
-		(at 125.095 71.755)
-		(size 39.37 20.32)
+		(at 93.345 31.115)
+		(size 20.955 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +304,7 @@
 		)
 		(uuid "e79f4bae-0570-408a-a4f8-ca387aa7c020")
 		(property "Sheetname" "Power"
-			(at 125.095 71.0434 0)
+			(at 93.345 30.4034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,12 +313,42 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 125.095 92.6596 0)
+			(at 93.345 52.0196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+3V3" output
+			(at 101.6 31.115 90)
+			(uuid "f0ead206-e3cc-44c2-a59d-088fc8289d1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DN" input
+			(at 114.3 33.02 0)
+			(uuid "bbcf72dd-d56f-4a6e-8035-3ed02e29fbe9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 114.3 35.56 0)
+			(uuid "8dbec5fd-ac69-4744-88de-977ec6acb2cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
