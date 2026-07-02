@@ -2715,16 +2715,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 82.55) (xy 168.91 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f23e473-c6e0-450b-a546-c835608953d9")
-	)
-	(wire
-		(pts
 			(xy 146.05 74.93) (xy 168.91 74.93)
 		)
 		(stroke
@@ -3593,16 +3583,6 @@
 		)
 		(uuid "ea4461ec-db5c-4bae-a81f-d71a76a4bf4d")
 	)
-	(label "BUZZ"
-		(at 166.37 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa8ee711-efba-423d-b0f4-ab576e60ba05")
-	)
 	(global_label "NRST"
 		(shape input)
 		(at 172.72 115.57 180)
@@ -3705,17 +3685,6 @@
 			(justify left)
 		)
 		(uuid "299f2a75-04cf-4ab1-9244-5fad23ee6446")
-	)
-	(hierarchical_label "BUZZ"
-		(shape output)
-		(at 168.91 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c3a82a3-edba-4822-95ea-e55c356afdfa")
 	)
 	(hierarchical_label "SD_MEM_CS"
 		(shape output)
