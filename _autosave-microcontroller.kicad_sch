@@ -2476,7 +2476,7 @@
 	)
 	(text "Power Supply Scheme"
 		(exclude_from_sim no)
-		(at 70.866 19.304 0)
+		(at 54.864 19.558 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -1593,7 +1593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14a97ab5-0de3-4bd6-adb3-f635c0b564d8")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 115.57 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1841,7 +1841,7 @@
 		(instances
 			(project "SmallFlightV1"
 				(path "/5a8b04a1-a6d6-48bd-ac5f-d4986cb92d03/e79f4bae-0570-408a-a4f8-ca387aa7c020"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1949,7 +1949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a3cbd84-be03-42de-a27b-087a2d263354")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 119.38 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2010,7 +2010,7 @@
 		(instances
 			(project "SmallFlightV1"
 				(path "/5a8b04a1-a6d6-48bd-ac5f-d4986cb92d03/e79f4bae-0570-408a-a4f8-ca387aa7c020"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2028,7 +2028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "591f774c-07aa-4ce8-bfd4-c441b0c9f9e8")
-		(property "Reference" "C8"
+		(property "Reference" "C12"
 			(at 182.88 74.2949 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2092,7 +2092,7 @@
 		(instances
 			(project "SmallFlightV1"
 				(path "/5a8b04a1-a6d6-48bd-ac5f-d4986cb92d03/e79f4bae-0570-408a-a4f8-ca387aa7c020"
-					(reference "C8")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2110,7 +2110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a04e9a5-d98d-44b0-9bba-301518a0f73c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 154.94 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2171,7 +2171,7 @@
 		(instances
 			(project "SmallFlightV1"
 				(path "/5a8b04a1-a6d6-48bd-ac5f-d4986cb92d03/e79f4bae-0570-408a-a4f8-ca387aa7c020"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2188,7 +2188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cfc3dc0-0192-4116-8196-87e1b8527955")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 193.294 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2252,7 +2252,7 @@
 		(instances
 			(project "SmallFlightV1"
 				(path "/5a8b04a1-a6d6-48bd-ac5f-d4986cb92d03/e79f4bae-0570-408a-a4f8-ca387aa7c020"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2270,7 +2270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2dfc532-deef-414f-9e33-a71ce89fd4f1")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 158.75 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2334,7 +2334,7 @@
 		(instances
 			(project "SmallFlightV1"
 				(path "/5a8b04a1-a6d6-48bd-ac5f-d4986cb92d03/e79f4bae-0570-408a-a4f8-ca387aa7c020"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
