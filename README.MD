@@ -1,5 +1,19 @@
 # Small Flight V1
 
+# Schematic
+
+## Main
+![main](images/sch_main.png)
+
+
+## Microcontroller
+![mcu](images/sch_mcu.png)
+
+## Power
+![power](images/sch_power.png)
+
+# Design
+
 ## Ideation
 ![estimated_flight_profile](images/estimated_flight_profile.png)
 
