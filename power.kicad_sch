@@ -1400,16 +1400,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 68.58) (xy 129.54 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c0bcb0b-ac84-4ae1-8303-5934fc446819")
-	)
-	(wire
-		(pts
 			(xy 179.07 71.12) (xy 179.07 66.04)
 		)
 		(stroke
@@ -1510,16 +1500,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 71.12) (xy 129.54 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dec14f61-1bb6-4b55-9efa-7074679bd2b4")
-	)
-	(wire
-		(pts
 			(xy 154.94 83.82) (xy 168.91 83.82)
 		)
 		(stroke
@@ -1547,28 +1527,6 @@
 			(justify right bottom)
 		)
 		(uuid "5b688947-431b-47a4-95f3-58f445e33e6b")
-	)
-	(hierarchical_label "USB_DN"
-		(shape input)
-		(at 129.54 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4383ad23-3292-43ce-a3db-ba256b7370b5")
-	)
-	(hierarchical_label "USB_DP"
-		(shape input)
-		(at 129.54 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "48faa66d-c491-4cde-8c87-bd5fa0eae8a9")
 	)
 	(hierarchical_label "+3V3"
 		(shape output)

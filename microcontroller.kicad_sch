@@ -2476,7 +2476,7 @@
 	)
 	(text "Power Supply Scheme"
 		(exclude_from_sim no)
-		(at 70.866 19.304 0)
+		(at 54.864 19.558 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3146,16 +3146,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 102.87) (xy 175.26 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "674fee69-8dfa-433c-8434-d9a1d816ac2a")
-	)
-	(wire
-		(pts
 			(xy 166.37 130.81) (xy 146.05 130.81)
 		)
 		(stroke
@@ -3606,16 +3596,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 100.33) (xy 175.26 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb94ee0e-bf47-40f2-ba06-e3ee48dbf700")
-	)
-	(wire
-		(pts
 			(xy 76.2 80.01) (xy 76.2 81.28)
 		)
 		(stroke
@@ -3996,17 +3976,6 @@
 		)
 		(uuid "897793d3-edd4-40e6-9993-fac8d2da7f86")
 	)
-	(hierarchical_label "USB_DN"
-		(shape bidirectional)
-		(at 175.26 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8c65a101-e98b-4232-9219-b4b87e3cd216")
-	)
 	(hierarchical_label "BUZZ"
 		(shape output)
 		(at 168.91 72.39 0)
@@ -4028,17 +3997,6 @@
 			(justify left)
 		)
 		(uuid "9a343ff7-cf6c-4396-ab83-579971e54616")
-	)
-	(hierarchical_label "USB_DP"
-		(shape bidirectional)
-		(at 175.26 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9fc79e65-b34b-41c0-b9e4-655670870b86")
 	)
 	(hierarchical_label "SP1_MISO"
 		(shape input)
