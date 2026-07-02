@@ -259,9 +259,9 @@
 				(justify left)
 			)
 		)
-		(pin "SP1_MISO" input
+		(pin "SPI1_MOSI" input
 			(at 162.56 48.26 0)
-			(uuid "52f1b7bd-f70e-40b7-8e47-880988fbcef2")
+			(uuid "8d737eee-fe2b-4a3a-82f3-7e5976cef292")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,9 +269,9 @@
 				(justify right)
 			)
 		)
-		(pin "SP1_MOSI" input
+		(pin "SPI1_SCK" input
 			(at 162.56 50.8 0)
-			(uuid "5cddbb56-471b-4233-ac95-0add9ddf0e73")
+			(uuid "aaabf4f6-877f-4e9e-bd2c-ad671cbedb52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -279,9 +279,9 @@
 				(justify right)
 			)
 		)
-		(pin "SP1_SCK" input
+		(pin "SPI1_MISO" input
 			(at 162.56 53.34 0)
-			(uuid "88a6bfcb-1798-415f-8b14-d51c464db86e")
+			(uuid "a7167f3e-6cbe-41ee-bccc-903c0599bb4a")
 			(effects
 				(font
 					(size 1.27 1.27)
