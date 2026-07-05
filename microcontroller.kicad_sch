@@ -2316,6 +2316,18 @@
 		(uuid "e556aba7-1c96-44b4-91cf-ad0377bada8a")
 	)
 	(rectangle
+		(start 200.66 102.235)
+		(end 222.25 108.585)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f2eee1f9-eebb-4b24-9d00-b3bd2703a631")
+	)
+	(rectangle
 		(start 187.325 140.335)
 		(end 214.63 161.29)
 		(stroke
@@ -2463,6 +2475,19 @@
 			)
 		)
 		(uuid "5c6f951a-cccf-4d94-bc79-f22012216efd")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 217.678 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5e070ab5-e4b0-4789-860f-d13550cb9d45")
 	)
 	(text "AN4488 Page 26"
 		(exclude_from_sim no)
@@ -2872,10 +2897,6 @@
 		(uuid "a8833139-2f14-48cb-baad-beb7d357f07a")
 	)
 	(no_connect
-		(at 168.91 104.14)
-		(uuid "a9922e23-bd46-40cc-b2bd-bed7a0aeb50f")
-	)
-	(no_connect
 		(at 128.27 88.9)
 		(uuid "b1c0a5d1-0eaa-4118-a3e0-8a1c292c2bce")
 	)
@@ -2890,10 +2911,6 @@
 	(no_connect
 		(at 168.91 99.06)
 		(uuid "c4cc549d-a9c9-4e81-9dd9-2969f73cfca9")
-	)
-	(no_connect
-		(at 168.91 106.68)
-		(uuid "c637bef6-84b8-499e-8849-f392800a60e3")
 	)
 	(no_connect
 		(at 168.91 127)
@@ -3138,6 +3155,16 @@
 			(type default)
 		)
 		(uuid "36e602a2-ce41-4ef1-89db-c47e1a981b36")
+	)
+	(wire
+		(pts
+			(xy 168.91 106.68) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a602b5f-31dd-4222-8804-a1c63978298d")
 	)
 	(wire
 		(pts
@@ -3558,6 +3585,16 @@
 			(type default)
 		)
 		(uuid "969e3f87-03fa-4911-bc1b-393dc671dd29")
+	)
+	(wire
+		(pts
+			(xy 168.91 104.14) (xy 203.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975c593f-6691-4309-bcae-dbe804bdf5ad")
 	)
 	(wire
 		(pts
@@ -4225,6 +4262,17 @@
 		)
 		(uuid "498ecc9f-280d-487a-ab6a-2684016eaebc")
 	)
+	(hierarchical_label "USB_OTG_FS_DP"
+		(shape bidirectional)
+		(at 203.2 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55ed94fd-f8c4-4047-bb41-bf27006e6885")
+	)
 	(hierarchical_label "SERVO_FEEDBACK"
 		(shape input)
 		(at 199.39 76.2 0)
@@ -4312,6 +4360,17 @@
 			(justify left)
 		)
 		(uuid "9a343ff7-cf6c-4396-ab83-579971e54616")
+	)
+	(hierarchical_label "USB_OTG_FS_DM"
+		(shape bidirectional)
+		(at 203.2 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6de8d4f-67fb-497e-ad17-24c98ca1a2c0")
 	)
 	(hierarchical_label "SPI1_MISO"
 		(shape input)
