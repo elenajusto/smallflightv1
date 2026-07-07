@@ -5,12 +5,17 @@
 ## Main
 ![main](images/sch_main.png)
 
+## Power
+![power](images/sch_power.png)
 
 ## Microcontroller
 ![mcu](images/sch_mcu.png)
 
-## Power
-![power](images/sch_power.png)
+## Inertial Measurement Unit
+![imu](images/sch_imu.png)
+
+## Barometer
+![barometer](images/sch_barometer.png)
 
 # Design
 

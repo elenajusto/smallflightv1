@@ -1068,6 +1068,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "COM3 tied to GND\nI2C Address = 0x28\nBNO055 Data sheet Page 100"
+		(exclude_from_sim no)
+		(at 204.724 103.378 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d02aabf-4cbb-4f92-b78b-13a67ef87a48")
+	)
 	(junction
 		(at 67.31 96.52)
 		(diameter 0)
@@ -1145,6 +1155,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acebeab8-6f63-4d97-a6d5-ca7d347a4237")
+	)
+	(junction
+		(at 186.69 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c18abb72-ae78-4b4e-aba5-6a9ae6e18b1e")
 	)
 	(junction
 		(at 99.06 73.66)
@@ -1269,6 +1285,16 @@
 			(type default)
 		)
 		(uuid "370d03e3-b310-4fba-a7df-9373547e53e3")
+	)
+	(wire
+		(pts
+			(xy 172.72 99.06) (xy 186.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f9ae08-ddf5-4f05-b5d8-699dd482a5cc")
 	)
 	(wire
 		(pts
@@ -1472,16 +1498,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 99.06) (xy 217.17 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acca4b2e-4f06-4ad3-8151-9ee68b84165a")
-	)
-	(wire
-		(pts
 			(xy 60.96 104.14) (xy 106.68 104.14)
 		)
 		(stroke
@@ -1502,7 +1518,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 96.52) (xy 186.69 118.11)
+			(xy 186.69 96.52) (xy 186.69 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1629,6 +1645,16 @@
 			(type default)
 		)
 		(uuid "ee2306cc-8c0a-4310-965f-f3d22180c3b3")
+	)
+	(wire
+		(pts
+			(xy 186.69 99.06) (xy 186.69 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec4904e-6bb5-42e3-8221-bbadf21da43f")
 	)
 	(wire
 		(pts
@@ -1817,17 +1843,6 @@
 			(justify left)
 		)
 		(uuid "e8cd38c2-d172-4de4-b440-abb58b9da746")
-	)
-	(hierarchical_label "I2C_ADDR_SEL"
-		(shape bidirectional)
-		(at 217.17 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f3353fcf-9dfc-4b11-9b02-0a4af51be5ff")
 	)
 	(symbol
 		(lib_id "Device:R")

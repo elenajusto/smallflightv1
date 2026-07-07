@@ -1270,6 +1270,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 88.265 53.34)
+		(end 215.265 128.905)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7cd740d0-cde5-4221-b543-cbd9864efbc4")
+	)
 	(text "Current: 1A"
 		(exclude_from_sim no)
 		(at 179.324 61.722 0)
@@ -1281,9 +1293,9 @@
 		)
 		(uuid "03c848ce-9ddc-4689-832c-c70fc0c486ed")
 	)
-	(text "Power Supply - MCU - 3V3"
+	(text "USB-C Power Supply"
 		(exclude_from_sim no)
-		(at 108.712 56.134 0)
+		(at 99.06 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
