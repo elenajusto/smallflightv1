@@ -1,0 +1,14 @@
+- find new flash chip, current one is out of stock
+- find breakout board for imu
+
+- wire magnetometer
+- wire sd card adapter
+
+- header for swd
+- connector for servos
+
+- determine led pins
+
+- add buzzer
+
+- update block diagrams and readme
