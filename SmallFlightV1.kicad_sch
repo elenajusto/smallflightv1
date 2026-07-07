@@ -37,7 +37,7 @@
 	)
 	(sheet
 		(at 170.815 31.115)
-		(size 20.955 23.495)
+		(size 26.035 23.495)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -51,7 +51,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "1da2585b-92c1-4803-abda-3b0a496343f4")
-		(property "Sheetname" "Sensor"
+		(property "Sheetname" "Inertial Measurement Unit"
 			(at 170.815 30.4034 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -71,6 +71,106 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BL_IND" bidirectional
+			(at 170.815 52.07 180)
+			(uuid "acd89922-69c8-4c11-a7fd-12b600207500")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRESET" bidirectional
+			(at 196.85 49.53 0)
+			(uuid "8909603e-8860-4b7c-b4e2-8a608dc08770")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK" bidirectional
+			(at 196.85 46.99 0)
+			(uuid "a793248d-1dd8-4b09-8382-954130662297")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 196.85 44.45 0)
+			(uuid "cf7b5c03-23bb-423e-8c7f-26bd8d7c3ee2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NBOOT_LOAD_PIN" bidirectional
+			(at 170.815 39.37 180)
+			(uuid "1e79a66d-5178-4032-9950-595e9f423ff9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT" bidirectional
+			(at 170.815 36.83 180)
+			(uuid "9572577c-d737-4a83-a993-5ff051a4b330")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 170.815 46.99 180)
+			(uuid "22386306-6cdb-4da5-aafe-77b1295c2dc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_ADDR_SEL" bidirectional
+			(at 170.815 49.53 180)
+			(uuid "8efecc17-d289-4a2d-a426-87d2c75f2f73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3V3" bidirectional
+			(at 170.815 33.02 180)
+			(uuid "702581d1-f99d-4ee8-b089-dd68ea806832")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 170.815 44.45 180)
+			(uuid "31689d3f-dbe8-442f-aeb2-ee49f361ab4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -661,7 +661,7 @@
         "uuid": "5a8b04a1-a6d6-48bd-ac5f-d4986cb92d03"
       }
     ],
-    "used_designators": "R5-6,J2",
+    "used_designators": "#PWR8,#PWR10,C13-15",
     "variants": []
   },
   "sheets": [
@@ -679,7 +679,7 @@
     ],
     [
       "1da2585b-92c1-4803-abda-3b0a496343f4",
-      "Sensor"
+      "Inertial Measurement Unit"
     ]
   ],
   "text_variables": {},

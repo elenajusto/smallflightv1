@@ -2040,16 +2040,6 @@
 		)
 		(uuid "fea72288-34c8-4527-9514-cbedfd2c8350")
 	)
-	(label "VBUS_MCU"
-		(at 128.27 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5b688947-431b-47a4-95f3-58f445e33e6b")
-	)
 	(hierarchical_label "USB_OTG_FS_DM"
 		(shape bidirectional)
 		(at 118.11 90.17 0)
