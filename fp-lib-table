@@ -4,4 +4,5 @@
 	(lib (name "10103592-0001LF") (type "KiCad") (uri "${KIPRJMOD}/models/10103592-0001LF") (options "") (descr ""))
 	(lib (name "BNO055") (type "KiCad") (uri "${KIPRJMOD}/models/BNO055/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "USB4085_GF_A") (type "KiCad") (uri "${KIPRJMOD}/models/USB4085_GF_A") (options "") (descr ""))
+	(lib (name "BME280") (type "KiCad") (uri "${KIPRJMOD}/models/BME280") (options "") (descr ""))
 )

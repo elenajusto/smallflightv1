@@ -4,4 +4,5 @@
 	(lib (name "10103592-0001LF") (type "KiCad") (uri "${KIPRJMOD}/models/10103592-0001LF/10103592-0001LF.kicad_sym") (options "") (descr ""))
 	(lib (name "BNO055") (type "KiCad") (uri "${KIPRJMOD}/models/BNO055/KiCADv6/2026-01-10_22-27-32.kicad_sym") (options "") (descr ""))
 	(lib (name "USB4085-GF-A_REVB") (type "KiCad") (uri "${KIPRJMOD}/models/USB4085_GF_A/USB4085-GF-A_REVB.kicad_sym") (options "") (descr ""))
+	(lib (name "BME280") (type "KiCad") (uri "${KIPRJMOD}/models/BME280/BME280.kicad_sym") (options "") (descr ""))
 )

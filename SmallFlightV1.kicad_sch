@@ -5,6 +5,18 @@
 	(uuid "5a8b04a1-a6d6-48bd-ac5f-d4986cb92d03")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 120.65 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ec714e9-5553-4d94-a242-d1b5b46af46a")
+	)
+	(junction
+		(at 200.66 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80654cdf-87f9-43eb-baf6-13e4c25c434c")
+	)
 	(wire
 		(pts
 			(xy 116.84 38.1) (xy 125.095 38.1)
@@ -17,13 +29,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 33.02) (xy 125.095 33.02)
+			(xy 116.84 33.02) (xy 120.65 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "77c20c8f-fe7b-45c2-ac0a-ff95d4591303")
+	)
+	(wire
+		(pts
+			(xy 196.85 38.1) (xy 200.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f72191-3a6a-490a-ad81-64d698e73f94")
 	)
 	(wire
 		(pts
@@ -35,9 +57,69 @@
 		)
 		(uuid "8e261d3f-a06c-4969-b299-86d80d867298")
 	)
+	(wire
+		(pts
+			(xy 200.66 35.56) (xy 200.66 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "911c5687-481a-4a74-a41e-5fcbec01b58b")
+	)
+	(wire
+		(pts
+			(xy 200.66 38.1) (xy 200.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a278cc32-d563-46c1-8ecb-f9faf2ec2e7c")
+	)
+	(wire
+		(pts
+			(xy 120.65 33.02) (xy 125.095 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a1cb13-8093-4bcc-9a7b-68c8265afbbd")
+	)
+	(wire
+		(pts
+			(xy 200.66 21.59) (xy 120.65 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c513720e-64b7-4256-9931-a6a911f3ba0e")
+	)
+	(wire
+		(pts
+			(xy 196.85 35.56) (xy 200.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8039d16-bb40-42fb-b37b-efeebde7e514")
+	)
+	(wire
+		(pts
+			(xy 120.65 21.59) (xy 120.65 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de8d89d0-312e-4e0e-8e2f-5c654cc1a608")
+	)
 	(sheet
 		(at 170.815 31.115)
-		(size 26.035 23.495)
+		(size 26.035 17.145)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -63,7 +145,7 @@
 			)
 		)
 		(property "Sheetfile" "sensor.kicad_sch"
-			(at 170.815 55.1946 0)
+			(at 170.815 48.8446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -74,7 +156,7 @@
 			)
 		)
 		(pin "BL_IND" bidirectional
-			(at 170.815 48.26 180)
+			(at 170.815 43.18 180)
 			(uuid "acd89922-69c8-4c11-a7fd-12b600207500")
 			(effects
 				(font
@@ -84,7 +166,7 @@
 			)
 		)
 		(pin "INT" bidirectional
-			(at 196.85 50.8 0)
+			(at 196.85 45.72 0)
 			(uuid "9572577c-d737-4a83-a993-5ff051a4b330")
 			(effects
 				(font
@@ -134,7 +216,7 @@
 			)
 		)
 		(pin "NRST" bidirectional
-			(at 196.85 48.26 0)
+			(at 196.85 43.18 0)
 			(uuid "71d58d08-0080-48a3-b8df-9d65e1f28726")
 			(effects
 				(font
@@ -154,7 +236,7 @@
 			)
 		)
 		(pin "NBOOT_LOAD" bidirectional
-			(at 170.815 50.8 180)
+			(at 170.815 45.72 180)
 			(uuid "ddd74371-0336-4b90-a7e0-cc3ee3ab4056")
 			(effects
 				(font
@@ -403,6 +485,92 @@
 			(project "SmallFlightV1"
 				(path "/5a8b04a1-a6d6-48bd-ac5f-d4986cb92d03"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.815 55.245)
+		(size 26.035 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8a2d7299-9f99-44e9-892b-bd586276fad3")
+		(property "Sheetname" "Barometer"
+			(at 170.815 54.5334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "barometer.kicad_sch"
+			(at 170.815 67.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDDIO" bidirectional
+			(at 196.85 59.69 0)
+			(uuid "9127e2a8-acdc-4fc5-85b6-33a49a748c41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" bidirectional
+			(at 196.85 62.23 0)
+			(uuid "395e4bbe-2315-471b-a2f4-c618736ee416")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 170.815 59.69 180)
+			(uuid "c34b6fff-15d3-44b7-b2b8-8b31031454d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 170.815 62.23 180)
+			(uuid "166fcf70-a79f-4acf-9deb-9ade681efc14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SmallFlightV1"
+				(path "/5a8b04a1-a6d6-48bd-ac5f-d4986cb92d03"
+					(page "5")
 				)
 			)
 		)

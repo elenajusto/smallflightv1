@@ -661,7 +661,7 @@
         "uuid": "5a8b04a1-a6d6-48bd-ac5f-d4986cb92d03"
       }
     ],
-    "used_designators": "#PWR8,#PWR10,C13-15,R7-10",
+    "used_designators": "U4,#PWR8,C16-19,R11-12",
     "variants": []
   },
   "sheets": [
@@ -680,6 +680,10 @@
     [
       "1da2585b-92c1-4803-abda-3b0a496343f4",
       "Inertial Measurement Unit"
+    ],
+    [
+      "8a2d7299-9f99-44e9-892b-bd586276fad3",
+      "Barometer"
     ]
   ],
   "text_variables": {},
