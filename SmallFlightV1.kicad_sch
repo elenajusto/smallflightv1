@@ -74,7 +74,7 @@
 			)
 		)
 		(pin "BL_IND" bidirectional
-			(at 170.815 52.07 180)
+			(at 170.815 48.26 180)
 			(uuid "acd89922-69c8-4c11-a7fd-12b600207500")
 			(effects
 				(font
@@ -83,58 +83,18 @@
 				(justify left)
 			)
 		)
-		(pin "NRESET" bidirectional
-			(at 196.85 49.53 0)
-			(uuid "8909603e-8860-4b7c-b4e2-8a608dc08770")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SWCLK" bidirectional
-			(at 196.85 46.99 0)
-			(uuid "a793248d-1dd8-4b09-8382-954130662297")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SWDIO" bidirectional
-			(at 196.85 44.45 0)
-			(uuid "cf7b5c03-23bb-423e-8c7f-26bd8d7c3ee2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NBOOT_LOAD_PIN" bidirectional
-			(at 170.815 39.37 180)
-			(uuid "1e79a66d-5178-4032-9950-595e9f423ff9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "INT" bidirectional
-			(at 170.815 36.83 180)
+			(at 196.85 50.8 0)
 			(uuid "9572577c-d737-4a83-a993-5ff051a4b330")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 170.815 46.99 180)
+			(at 170.815 35.56 180)
 			(uuid "22386306-6cdb-4da5-aafe-77b1295c2dc1")
 			(effects
 				(font
@@ -144,7 +104,7 @@
 			)
 		)
 		(pin "I2C_ADDR_SEL" bidirectional
-			(at 170.815 49.53 180)
+			(at 170.815 38.1 180)
 			(uuid "8efecc17-d289-4a2d-a426-87d2c75f2f73")
 			(effects
 				(font
@@ -153,9 +113,39 @@
 				(justify left)
 			)
 		)
-		(pin "+3V3" bidirectional
+		(pin "VDDIO" bidirectional
+			(at 196.85 38.1 0)
+			(uuid "4943f1bd-080d-4fbb-9b53-181af72cc5e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" bidirectional
+			(at 196.85 35.56 0)
+			(uuid "89f6e3bc-cb89-4ee5-8ba7-3172d7050485")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST" bidirectional
+			(at 196.85 48.26 0)
+			(uuid "71d58d08-0080-48a3-b8df-9d65e1f28726")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL " bidirectional
 			(at 170.815 33.02 180)
-			(uuid "702581d1-f99d-4ee8-b089-dd68ea806832")
+			(uuid "ab4b6b0f-4fc6-4555-b46c-1c25c6f33bc9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163,9 +153,9 @@
 				(justify left)
 			)
 		)
-		(pin "SCL" bidirectional
-			(at 170.815 44.45 180)
-			(uuid "31689d3f-dbe8-442f-aeb2-ee49f361ab4f")
+		(pin "NBOOT_LOAD" bidirectional
+			(at 170.815 50.8 180)
+			(uuid "ddd74371-0336-4b90-a7e0-cc3ee3ab4056")
 			(effects
 				(font
 					(size 1.27 1.27)
